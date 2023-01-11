@@ -39,7 +39,7 @@ The whole project has been divided into three parts. These are listed as follows
 
 • Model Development : In this step, we use the resultant data after the implementation of the previous step to cross validate our Machine Learning model and perform Hyperparameter optimization based on various performance metrics in order to make our model predict as accurate results as possible.
 
-• Model Deployment : This step include creation of a front-end using Anvil, Flask and Heroku to put our trained model into production.
+• Model Deployment : This step include creation of a front-end using Anvil, running the model in our local system and connecting it to webapp with the help of anvil uplink.
 
 ## Installation
 
@@ -50,16 +50,12 @@ pip install -r requirements.txt
 
 ### Run on your Local Machine
 
-To run the flask server on your local machine, just run the following code in your command prompt in the project directory :
-```bash
-python server.py
-```
-This will start the run the [server.py](https://github.com/saxenashefali/Adult-Census-Income-Prediction/blob/master/server.py) which will also trigger code for [server_app.py](https://github.com/saxenashefali/Adult-Census-Income-Prediction/blob/master/server_app.py) because of the use of asynchronous execution (threading) and will connect our ML model to Anvil application UI and will keep the server running till the web page rendered by flask application gets closed but to keep the server running forever, we used the heroku cloud to run our server continuously.
+Jupyter Notebook connected to anvil webapp is used to predict outcomes using tarined model.pkl file.
 
 ## Bug / Feature Request
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/rauhanahmed/ineuron_internship/new) by including your search query and the expected result.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/kldpsh7/income-prediction/issues/new) by including your search query and the expected result.
 
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/rauhanahmed/ineuron_internship/issues/new). Please include sample queries and their corresponding results.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/kldpsh7/income-prediction/requests/new). Please include sample queries and their corresponding results.
 
 ## Technologies Used
 
@@ -67,7 +63,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 • Python Programming language
 
-• Heroku cloud
+• Jupyter Notebook
 
 • Anvil framework
 
@@ -75,19 +71,17 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 Link for youtube video regarding description of the project : https://youtu.be/b9UdJ8RHMvI
 
-Link for App Documentation : https://github.com/saxenashefali/Adult-Census-Income-Prediction/tree/master/App%20Documents
+Link for App Documentation : [Here](https://github.com/Kldpsh7/income-prediction/tree/main/docs)
 
 ## Author
 
-[Shefali Saxena](https://github.com/saxenashefali)
+[Kuldeep Sharma](https://github.com/kldpsh7)
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[GNU](https://choosealicense.com/licenses/gnu/)
+GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
 
-Copyright 2021 Shefali Saxena
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.

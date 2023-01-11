@@ -17,7 +17,7 @@
 
 • Working of web application on a PC
 
-![Alt Text](https://drive.google.com/file/d/1dWBUv09_nssBsPcbn_TD5I0V--RhUvdl/view?usp=share_link)
+![image](https://drive.google.com/uc?export=view&id=1dWBUv09_nssBsPcbn_TD5I0V--RhUvdl)
 
 • Working of application on mobile phone
 

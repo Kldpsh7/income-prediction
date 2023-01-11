@@ -21,7 +21,7 @@
 
 • Working of application on mobile phone
 
-![Alt Text](https://drive.google.com/uc?export=download&id=1wphArRjCBUA1cA8ux8P3SJoZ6__1U-i8)
+![Alt Text](https://drive.google.com/uc?export=view&id=1U-FilTN57By-6lA3TTEFZ2-JUfK5sILH)
 
 ## Overview
 

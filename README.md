@@ -17,11 +17,11 @@
 
 • Working of web application on a PC
 
-![image](https://drive.google.com/uc?export=view&id=1dWBUv09_nssBsPcbn_TD5I0V--RhUvdl)
+![image](https://drive.google.com/uc?export=view&id=1U-FilTN57By-6lA3TTEFZ2-JUfK5sILH)
 
 • Working of application on mobile phone
 
-![Alt Text](https://drive.google.com/uc?export=view&id=1U-FilTN57By-6lA3TTEFZ2-JUfK5sILH)
+![Alt Text](https://drive.google.com/uc?export=view&id=1TyHE6cXdYE8tPb74qwqUxbz7sXwa5b8b)
 
 ## Overview
 
